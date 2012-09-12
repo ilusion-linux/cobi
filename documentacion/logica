@@ -1,0 +1,64 @@
+CoBi
+Compresor Binario
+
+Opciones posibles para compresion:
+
+Comprimir un documento
+Comprimir varios documentos
+Comprimir un directorio
+Comprimir varios directorio
+
+Opciones posibles
+
+Contraseña para descompresión
+
+Lógica de Programacion
+
+Caso genérico compresion de un documento:
+Leer byte a byte el archivo en modo binario, luego en otro thread empezar a leer bite a bite cada byte que conforman el archivo
+
+Establecer apariciones continuas de 0 y 1
+
+Seleccionar quien menos apariciones continuas tenga
+
+Determinar diccionario inicial a utilizar
+
+	Guardar en vector de diccionarios el diccionario inicial
+
+
+
+Diccionarios
+
+Pasada 4
+0000 - 0
+0001 - 1
+0010 - 2
+0011 - 3
+0100 - 4
+0101 - 5
+0110 - 6
+0111 - 7
+1000 - 8
+1001 - 9
+1010 - 10
+1011 - 11
+1100 - 12
+1101 - 13
+1110 - 14
+1111 - 15
+
+Pasada 3
+000 - 0
+001 - 1
+010 - 2
+011 - 3
+100 - 4
+101 - 5
+110 - 6
+111 - 7
+
+Pasada 2
+00 - 0
+01 - 1
+10 - 2
+11 - 3
